@@ -136,6 +136,24 @@ textarea {
   text-align:center; 
 }
 
+a {
+  color: #19aa8d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+modal-footer {
+  color: #999;
+  border-color: #dee4e7;
+  text-align: center;
+  margin: 0 -25px -25px;
+  font-size: 13px;
+  justify-content: center;
+}
+
 ._social_04 ol li{
   display:inline-block;
   width:40px;

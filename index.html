@@ -16,6 +16,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/myScript.js"></script>
 
 </head>
 <body>
@@ -30,11 +31,20 @@
                                 <img src="assets/images/user.png">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="username" class="form-control _ge_de_ol" type="text" placeholder="Enter Username" required="" aria-required="true">
+
+                                <div class="form-floating mb-3 mt-3">
+                                    <input type="text" name="username" class="form-control _ge_de_ol form-control" id="username" placeholder="Enter Username" required aria-required="true">
+                                    <label for="username" class="form-label">Username:</label>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
                             </div>
 
                             <div class="form-group">
-                                <input type="password" name="password" class="form-control _ge_de_ol" type="text" placeholder="Enter Password" required="" aria-required="true">
+
+                                <div class="form-floating mb-3 mt-3">
+                                    <input type="password" name="password" class="form-control _ge_de_ol form-control" id="password" type="text" placeholder="Enter Password" required aria-required="true">
+                                    <label for="password" class="form-label">Password:</label>
+                                </div>
                             </div>
 
                             <div class="checkbox form-group">
@@ -52,7 +62,7 @@
                                     <a href="#">Login</a>
                                 </div>
                             </div>
-
+                            <div class="modal-footer">Don't have an account? <a href="#">Create one</a></div>
 
                         </div>
                     </div>
